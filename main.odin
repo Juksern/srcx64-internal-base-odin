@@ -25,7 +25,7 @@ draw_rectangle :: proc(hdc: win.HDC, x, y, width, height: i32, color: win.COLORR
 }
 
 draw_menu :: proc(hdc: win.HDC) {
-    draw_text(hdc, 10, 10, "hello unknown cheats")
+    draw_text(hdc, 10, 10, "hello")
 }
 
 render_data :: struct {
